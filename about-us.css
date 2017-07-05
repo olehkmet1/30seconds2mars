@@ -1,0 +1,166 @@
+html{font-family: 'Maven Pro', sans-serif;}
+
+body{ background: #F6F6F6;  }
+
+
+ 
+ header {
+	height:80px;
+	width: 100%;
+	
+
+
+  text-align: center;
+
+}	
+.head{
+
+	height: 80px;
+	width: 100%;
+	background: #F6F6F6;
+	
+	
+	
+	bottom: 2%;
+	
+
+  text-align: center;
+  text-transform: uppercase;
+
+	
+
+}
+a{
+	text-decoration: none;
+	color: black;
+}
+h1{
+	font-size: 160%;
+	text-align: center;
+}
+
+
+
+#logo{
+	height: 200px;
+	width: 200px;
+	background: url(images/300x300.jpg);
+}
+
+
+.navi{
+
+	 list-style: none;
+	 font-weight: 700;
+	   padding-right: 60px;
+	   	padding-top: 20px;
+}
+	
+
+	  ul li {
+  
+  display: inline-block;
+ padding: 5px;
+
+
+
+  font-size: 140%;
+margin: 0 20px  ;
+
+
+ 
+}
+ li:hover {
+ 	text-decoration: underline;
+
+ 
+}
+
+.menu{
+	
+	font-weight: 700;
+	
+	font-size: 80%;
+	
+	text-align: center;
+	
+	
+	clear: left;
+}
+.mobi{
+	display: none;
+}
+
+.label{
+	
+	font-size: 25px;
+	text-align: center;
+
+	text-transform: uppercase;
+	
+	font-weight: bold;
+	font-style: normal;
+	text-rendering: optimizeLegibility;
+	white-space: normal;
+	margin-bottom: 50px;
+	
+}
+.photo1{ width: 75%;
+  max-width:1400px;
+
+  margin: 0 auto; 
+  margin-top: 60px;
+}
+
+.jared{
+	  width: 75%;
+  max-width:300px;
+
+  margin: 0 auto; 
+  float: left;
+  padding: 0 20px 0 0;
+
+
+
+}
+.shannon{
+	clear: left;
+	padding-top: 20px;
+}
+.tommi{
+	clear: left;
+	padding-top: 20px;
+}
+
+.container1{
+	width: 100%;
+	max-width: 1200px;
+
+  margin: 0 auto; 
+  margin-top: 10px;
+
+ 
+}
+.text1{
+	font-weight: 700;
+	text-align: inherit;
+	font-size: 110%;
+
+}
+
+.header1{
+	text-align: center;
+}
+
+.title1{
+	text-align: center;
+	padding-bottom: 10px;
+
+}
+
+.title2{
+	text-align: center;
+
+	padding-bottom: 10px;
+
+}

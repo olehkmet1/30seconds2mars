@@ -1,0 +1,235 @@
+html {
+	font-family: 'Maven Pro', sans-serif;
+}
+
+body {
+	background: #F6F6F6;
+}
+
+header {
+	height: 80px;
+	width: 100%;
+	text-align: center;
+	
+}
+
+.head {
+	width: 100%;
+	background: #F6F6F6;
+	height: 80px;
+	bottom: 2%;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.navi {
+	list-style: none;
+	font-weight: 700;
+	padding-right: 60px;
+	padding-top: 20px;
+}
+
+
+ul li {
+	display: inline-block;
+	padding: 5px;
+	font-size: 140%;
+	margin: 0 20px;
+}
+
+li:hover {
+	text-decoration: underline;
+}
+
+.container {
+	width: 75%;
+	max-width: 1400px;
+	margin: 0 auto;
+	margin-top: 50px;
+}
+
+.poster {
+	margin-top: 30px;
+}
+
+img {
+	width: 100%;
+	/* ширина картинки */
+	height: auto;
+	/* высота картинки */
+}
+
+h1 {
+	font-size: 200%;
+	text-align: center;
+	
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+.menu {
+	font-weight: 700;
+	font-size: 80%;
+	text-align: center;
+	bottom: 0;
+}
+
+
+
+.label {
+	font-size: 25px;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-style: normal;
+	text-rendering: optimizeLegibility;
+	white-space: normal;
+	margin-bottom: 50px;
+}
+
+.photo1 {
+	width: 75%;
+	max-width: 1400px;
+	margin: 0 auto;
+	margin-top: 60px;
+}
+
+.jared {
+	width: 75%;
+	max-width: 300px;
+	margin: 0 auto;
+	float: left;
+	padding: 50px 20px 0 0;
+}
+
+.container1 {
+	width: 100%;
+	max-width: 1400px;
+	margin: 0 auto;
+	margin-top: 50px;
+}
+
+.text1 {
+	font-weight: 700;
+	text-align: inherit;
+	font-size: 110%;
+}
+
+.title1 {
+	text-align: center;
+}
+
+
+
+.logo2 {
+	width: 100px;
+}
+
+
+.schedule {
+	width: 100%;
+	max-width: 840px;
+	margin: 0 auto;
+	text-align: center;
+	margin-top: 30px;
+}
+
+.concert {
+	text-align: left;
+}
+
+.concert2 {
+	text-align: left;
+	clear: both;
+}
+
+.date {
+	float: left;
+	font-weight: 700;
+}
+
+.date1 {
+	float: left;
+	font-weight: 700;
+}
+
+.date1:after {
+	content: "\00a0";
+}
+
+.tickets {
+	float: right;
+}
+
+.tickets2 {
+	float: left;
+	margin-left: 60px;
+}
+
+.tickets3 {
+	float: left;
+	margin-left: 80px;
+}
+
+.buy_tickets {
+	border: 2px solid;
+	padding: 5px;
+	border-radius: 10px;
+	font-weight: 700;
+}
+
+.buy_tickets2 {
+	border: 2px solid;
+	padding: 5px;
+	border-radius: 10px;
+	font-weight: 700;
+}
+
+.buy_tickets2:hover {
+	color: #D7AD1B;
+}
+
+.buy_tickets:hover {
+	color: #1660BF;
+}
+
+.city {
+	font-weight: 700;
+	float: left;
+	padding-left: 50px;
+}
+
+.location {
+	color: #8A8A8A;
+	float: left;
+}
+
+
+.promo {
+	margin-top: 30px;
+	text-align: center;
+	
+}
+
+.title1 {
+	margin-bottom: 30px;
+}
+
+.location:before {
+	content: "/";
+	padding: 10px;
+}
+
+.mobi{
+	display: none;
+}
+
+
+
+footer {
+	clear: both;
+}
+
