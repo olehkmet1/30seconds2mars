@@ -22,6 +22,7 @@ header {
 	text-transform: uppercase;
 }
 
+
 .navi {
 	list-style: none;
 	font-weight: 700;
@@ -42,38 +43,24 @@ li:hover {
 .panorama{
 	width: 100%;
 	max-width:100%;
-	
+	z-index: 1;
 
 }
-.mobi{
-	display: none;
-}
-
 .main-picture{
-	
+	z-index: 500;
 	text-align: center;
-
 }
-
-.picture1{
-	
-	text-align: center;
-	width: 60%;
-	max-width: 1400px;
-	margin: 0 auto;
-	margin-bottom: 30px;
-	}
 
 .description{
 	font-weight: 700;
 	text-transform: uppercase;
 	text-align: center;
 	font-size: 200%;
+	text-decoration: underline;
 }
-.photos{
-	text-align: center;
-	width: 100%;
-	
+
+.mobi{
+	display: none;
 }
 
 
@@ -86,7 +73,9 @@ a {
 	text-decoration: none;
 	color: black;
 }
-
+a:hover{
+	text-decoration: underline;
+}
 .menu {
 	font-weight: 700;
 	font-size: 80%;

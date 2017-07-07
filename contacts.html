@@ -3,11 +3,14 @@
 
 <head>
 	<meta charset="utf-8">
-    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 	<link href="https://fonts.googleapis.com/css?family=Maven+Pro" rel="stylesheet">
-	<link rel="stylesheet" type="text/css" href="style.css">
-		<link rel="stylesheet" type="text/css" href="tour-layout.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+		<link rel="stylesheet" type="text/css" href="css/tour-layout.css">
+
 	<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+	
+	
 	<title>30 Seconds to Mars</title>
 </head>
 
@@ -29,6 +32,44 @@
 	</div>
 </header>
 
+<div class="mobi">
+		<input type="checkbox" id="hmt" class="hidden-menu-ticker">
+		<label class="btn-menu" for="hmt">
+  <span class="first"></span>
+  <span class="second"></span>
+  <span class="third"></span>
+</label>
+
+		<ul class="hidden-menu">
+			<li> <a href="index.html">Home</a></li>
+			<li> <a href="about-us.html">About</a></li>
+			<li><a href="photos.html">Photos</a></li>
+			<li><a href="tour.html">Tour</a></li>
+			<li><a href="contacts.html">Contacts</a></li>
+		</ul>
+
+</div>
+
+<form class="main__form-list" id="form">
+			<h1>Contact us</h1>
+            
+            <div class="main__form-item">
+               
+                <input id="name"  name="name" placeholder="Your name" required>
+            </div>
+                <div class="main__form-item">
+                <input id="email" type="email" name="email" placeholder="example@mail.com" required>
+            </div>
+            
+            <div class="main__form-item">
+               
+                <textarea id="message" name="message" placeholder="Your message"></textarea>
+            </div>
+            <div class="main__form-item main__form-item-col">
+                <input type="submit" name="submit" value="Send" class="main__form-submit" id="main__form-submit">
+            </div>
+        </form>
+
 
 <footer>
 
@@ -38,6 +79,11 @@
 			<li><a href="https://privacypolicy.umusic.com/terms/" target="_blank">Terms  Conditions</a></li>
 		</ul>
 	</footer>
+	<script
+    src="https://code.jquery.com/jquery-3.2.1.min.js"
+    integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+    crossorigin="anonymous"></script>
+<script src="js/send-form.js"></script>
 </body>
 
 </html>

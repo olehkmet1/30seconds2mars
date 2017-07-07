@@ -49,6 +49,35 @@ li:hover {
 	display: none;
 }
 
+#scroller{
+	right: 30px;
+    position: fixed;    
+   
+    bottom: 30px;   
+    
+    background: transparent url(../images/arrow.png) no-repeat left top;  
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+    
+    display:none;
+}
+
+#scroller:hover{
+	right: 30px;
+    position: fixed;    
+    
+    bottom: 30px;   
+    
+    background: transparent url(../images/arrow.png) no-repeat left top;  
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+   
+    display:none;
+    filter: blur(2px);
+}
+
 .main-picture{
 	
 	text-align: center;

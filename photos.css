@@ -22,6 +22,7 @@ header {
 	text-transform: uppercase;
 }
 
+
 .navi {
 	list-style: none;
 	font-weight: 700;
@@ -55,6 +56,10 @@ li:hover {
 	text-transform: uppercase;
 	text-align: center;
 	font-size: 200%;
+}
+
+.mobi{
+	display: none;
 }
 
 

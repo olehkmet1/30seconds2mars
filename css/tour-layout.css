@@ -79,6 +79,7 @@
 	}
 	.mobi{
 	display: block;
+	margin-bottom: 30%;
 }
 	.label {
 		font-size: 140%;
@@ -314,13 +315,13 @@
 	.main-picture{
 	
 	text-align: center;
-
+	
 }
 
 .picture1{
 	
 	text-align: center;
-	width: 60%;
+	width: 90%;
 	max-width: 1400px;
 	margin: 0 auto;
 	margin-bottom: 30px;
@@ -330,6 +331,102 @@
 	font-weight: 700;
 	text-transform: uppercase;
 	text-align: center;
-	font-size: 200%;
+	font-size: 140%;
 }
+
+.panorama{
+	height: :  100%;
+	max-height: 100%;
+	z-index: 1;
+
+}
+#scroller{
+	right: 0;
+    position: fixed;    
+   
+    bottom: 0;   
+   
+    background: transparent url(images/arrow.png) no-repeat left top;  
+    width: 0;
+    height: 0;
+    cursor: pointer;
+  
+    display:none;
+}
+#scroller:hover{
+	right: 0;
+    position: fixed;    
+   
+    bottom: 0;   
+    
+    background: transparent url(images/arrow.png) no-repeat left top;  
+    width: 0;
+    height: 0;
+    cursor: pointer;
+   
+    display:none;
+}
+
+.main__form {
+    text-align: center;
+}
+
+.main__form-item {
+    margin: 10px 0;
+  
+    display: flex;
+    align-items: center;
+ 
+    justify-content: space-around;
+}
+
+.main__form-item input,
+.main__form-item textarea,
+.main__form-item select {
+    padding: 0 5px;
+    width: 80%;
+    
+}
+
+.main__form-item input,
+.main__form-item select {
+    height: 30px;
+    width: 60%;
+    max-width: 220px;
+}
+
+.main__form-item textarea {
+    padding: 5px 5px;
+    height: 100px;
+    resize: none;
+    max-width: 500px;
+}
+
+
+
+.main__form-item-col {
+    flex-direction: column;
+}
+
+.main__form-item-col .main__form-submit {
+    
+    text-align: center;
+    
+    
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 700;
+    border-radius: 5px;
+    background: #F6F6F6;
+    font-size: 100%;
+    border: 2px solid;
+    width: 80px;
+    font-family: 'Maven Pro', sans-serif;
+
+}
+.main__form-item-col .main__form-submit:hover {
+	opacity: 0.8;
+	
+}
+
 }
