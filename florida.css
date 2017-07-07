@@ -55,6 +55,20 @@ li:hover {
 
 }
 
+#scroller{
+	right: 30px;
+    position: fixed;    
+   
+    bottom: 30px;   
+    
+    background: transparent url(../images/arrow.png) no-repeat left top;  
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+    
+    display:none;
+}
+
 .picture1{
 	
 	text-align: center;
